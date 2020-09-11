@@ -25,4 +25,4 @@ function draw(){
     ctx.drawImage(bg,0,0);
     ctx.drawImage(pipeNorth,100,0);
 }
-draw();
+setInterval(draw,100);
